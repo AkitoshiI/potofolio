@@ -1,0 +1,29 @@
+/*追加分*/
+
+.dContainer {
+  width: fit-content;
+
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+#displayBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+#display {
+  display: inline-block;
+  width: auto;
+  font-size: 140px;
+  margin: auto;
+  text-align: center;
+}
+#textBox {
+  width: 500px;
+  height: 120px;
+  font-size: 140px;
+}
